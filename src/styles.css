@@ -1,0 +1,144 @@
+body {
+  background-image: linear-gradient(
+      to right bottom,
+      rgb(77, 77, 77),
+      rgb(0, 0, 0)
+    ),
+    linear-gradient(transparent, rgb(0, 0, 0) 70%);
+  margin: 0;
+  color: white;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.App {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  overflow: auto;
+  height: 100vh;
+  display: flex;
+}
+
+.App button {
+  background-color: #1db954;
+  color: #fff;
+  border: none;
+  border-radius: 500px;
+  padding: 10px 25px 11px;
+}
+
+.App button:focus {
+  outline: none;
+}
+
+.App button:hover {
+  background-color: #1ed760;
+}
+
+.App button:active {
+  background-color: #1da64d;
+}
+
+.Sidebar {
+  background: black;
+  text-align: left;
+  padding: 20px;
+}
+
+.Sidebar img {
+  width: 80px;
+}
+
+.Sidebar-item {
+  text-decoration: none;
+  color: white;
+}
+
+.Sidebar-selected {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.Screen {
+  padding: 20px;
+  overflow: auto;
+  width: 100%;
+}
+
+.Header {
+  position: relative;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.SearchBar {
+  background: #555;
+  padding: 10px;
+  width: 250px;
+}
+
+.SearchBar input {
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  background: #555;
+}
+
+.SearchBar input:focus {
+  outline: none;
+}
+
+.SearchBar img {
+  width: 20px;
+  margin: 5px 5px 0;
+}
+
+.ArtistBox {
+  float: left;
+  padding: 15px;
+  width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.ArtistBox h3 {
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ArtistImage {
+  position: relative;
+  text-align: center;
+  padding: 10px;
+}
+
+.ArtistImage-image {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.ArtistImage-fav {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+}
+
+.TextWithIcon {
+  display: block;
+  font-size: 0.9em;
+  margin: 10px 0;
+}
+
+.TextWithIcon img {
+  width: 20px;
+  margin-bottom: -5px;
+  margin-right: 5px;
+}
